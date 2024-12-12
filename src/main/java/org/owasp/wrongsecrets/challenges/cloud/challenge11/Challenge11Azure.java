@@ -46,7 +46,7 @@ public class Challenge11Azure extends FixedAnswerChallenge {
   }
 
   private String getAzureChallenge11Value() {
-    log.info(String.format("Using Azure Key Vault URI: %s", azureVaultUri));
+    log.info("Using Azure Key Vault URI: {}", azureVaultUri);
     return azureWrongSecret3;
   }
 
